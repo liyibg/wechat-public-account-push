@@ -26,7 +26,7 @@ export const config = {
     // }]
     USERS: [
       {name: '001', id: "oco0y6QemeM87f_Hxup-jxmmZ1Do"}, 
-      {name: '老婆1', id: "oco0y6QemeM87f_Hxup-jxmmZ1Do"}, 
+      {name: '老婆1', id: ""}, 
       {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
       {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
     ],
@@ -53,23 +53,13 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "1996", "date": "01-01"},
-      {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "01-04"},
-      {"type": "生日", "name": "李四", "year": "1996", "date": "08-29"},
-      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "08-29"},
+      {"type": "节日", "name": "国庆节", "year": "1949", "date": "10-01"},
+      {"type": "节日", "name": "春节", "year": "2021", "date": "02-01"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
     // 如果为0, 则默认展示全部
     FESTIVALS_LIMIT: 3,
-
-    /** 日期相关 */
-
-    // 在一起的日子，格式同上
-    LOVE_DATE: "2015-05-01",
-    // 结婚纪念日
-    MARRY_DATE: "2020-01-04",
-
 
     /** 每日一言 */
 
