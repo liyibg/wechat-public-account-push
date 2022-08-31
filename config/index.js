@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "a3a033a34213a1bad20a5319f2d76a61",
 
     // 模板消息id
-    TEMPLATE_ID: "WccvpMTpSkFTqTDECf6wg6kZe1M2d_ohwMZeTLKNZOk",
+    TEMPLATE_ID: "b-kn6pjAWX2fswhwMUOcS0_kTYPAf4b1fsUUFaa6KVw",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "",
@@ -53,8 +53,10 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "节日", "name": "国庆节", "year": "1949", "date": "10-01"},
-      {"type": "节日", "name": "春节", "year": "2021", "date": "02-01"},
+      {"type": "节日", "name": "中秋节", "year": "1949", "date": "09-10"},
+      {"type": "节日", "name": "国庆节", "year": "2021", "date": "10-01"},
+      {"type": "节日", "name": "立冬", "year": "2021", "date": "11-07"},
+      {"type": "节日", "name": "元宵节", "year": "2021", "date": "02-15"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
